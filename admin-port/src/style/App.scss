@@ -1,0 +1,88 @@
+@import url("./Login.scss");
+@import url("./Register.scss");
+
+body {
+    background-color: #a6a2a2fa !important;
+}
+
+.login_left_side {
+    background: url("../Assets/img/vicino_sidebar.png") no-repeat;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.col-sm-4 {
+    height: 650px;
+}
+
+.text-grey {
+    color: rgb(26, 47, 237);
+}
+
+.cursor_pointer {
+    cursor: pointer;
+}
+
+.register-step-container {
+    position: absolute;
+    top: 200px;
+    right: -45px;
+    padding: 20px;
+
+    .register-step {
+        height: 70px;
+        width: 70px;
+        color: white;
+        background-color: #0074bb;
+        border: 5px solid white;
+        padding: 20px 25px;
+        border-radius: 100%;
+        margin-right: -10px;
+        margin-bottom: 20px;
+    }
+
+    .register-step-active {
+        height: 70px;
+        width: 70px;
+        color: white;
+        background-color: #0074bb;
+        border: 5px solid white;
+        padding: 20px 25px;
+        border-radius: 100%;
+        margin-right: -10px;
+        margin-bottom: 20px;
+    }
+}
+
+.card-icon {
+    text-align: center;
+    top: 50%;
+}
+
+.card {
+    width: 350px;
+    margin: 25px;
+
+}
+
+.text-primary {
+    color: #0074bb !important;
+}
+.tab{
+    margin-right: 25px;
+    cursor: pointer;
+}
+.tab_active{
+    margin-right: 20px;
+    text-decoration: underline;
+    cursor: pointer;
+    color:#1b2ccb;
+}
+/*.select {
+    width: 100px;
+    height: 30px;
+    margin-top: px;
+    padding-left: 5px;
+    padding-top: 2px;
+    font-size: small;
+  }*/
